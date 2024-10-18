@@ -1,0 +1,48 @@
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.calculator{
+  background-color: white;
+  padding: 10px;
+  border: solid 5px rgb(255, 191, 52);
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px 10px black;
+  transform: scale(1.4);
+}
+input{
+  width: 95%;
+  height: 45px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  text-align: right;
+}
+button{
+  margin: 2px;
+  transition: 0.3s;
+}
+#ac{
+  width: 85px;
+  background-color: rgb(33, 33, 129);
+}
+#del{
+  background-color: rgb(33, 33, 129);
+}
+#num{
+  color: white;
+}
+#eq{
+  width: 48%;
+}
+#add{
+ width: 47px;
+}
+#eq{
+  background-color: rgb(255, 191, 52);
+  color: black;
+}
+button:hover{
+  transform: scale(1.06);
+  transition: 0.3s;
+}
